@@ -107,7 +107,7 @@ Custom slicer buttons support switching between monthly, weekly, and hourly view
 ![Pizza Sales Dashboard Overview](screenshots/performance-overview.png)
 
 ### Summary And Insight
-![Pizza Sales Trends](screenshots/business-summary-and-insight.png)
+![Summary And Insight](screenshots/business-summary-and-Insight.png)
 
 
 ## 🔍 Key Business Insights
