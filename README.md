@@ -104,15 +104,11 @@ Custom slicer buttons support switching between monthly, weekly, and hourly view
 ## 🖼️ Dashboard Preview
 
 ### Overall Dashboard
-![Pizza Sales Dashboard Overview](images/dashboard-overview.png)
+![Pizza Sales Dashboard Overview](screenshots/performance-overview.png)
 
-### Sales Trends
-![Pizza Sales Trends](images/sales-trends.png)
+### Summary And Insight
+![Pizza Sales Trends](screenshots/business-summary-and-insight.png)
 
-### Product Performance
-![Pizza Product Performance](images/product-performance.png)
-
-*Dashboard screenshots will be displayed here once the corresponding images are uploaded to the repository.*
 
 ## 🔍 Key Business Insights
 
