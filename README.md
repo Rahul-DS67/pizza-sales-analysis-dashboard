@@ -42,7 +42,7 @@ The project uses transactional pizza sales data containing order-level and produ
 - Unit Price
 - Total Price
 
-The source data was treated as clean at source, but its structure, data types, missing values, categorical consistency, and numeric fields were validated before analysis.
+The dataset contains approximately 48,620 transaction records covering January to December 2015. Each record represents a pizza product included in an order.
 
 > **Data availability:** The complete raw dataset and Power BI report file are not included in this public repository. Selected documentation, dashboard screenshots, and project presentation materials are provided to demonstrate the analytical workflow and outcomes.
 
@@ -110,28 +110,30 @@ Custom slicer buttons support switching between monthly, weekly, and hourly view
 ![Summary And Insight](screenshots/business-summary-and-Insight.png)
 
 
+
 ## 🔍 Key Business Insights
 
-The analysis highlighted several patterns:
+The analysis identified several important patterns in pizza sales performance:
 
-- **Peak ordering periods:** Sales activity is concentrated around lunch and dinner hours.
-- **Product performance:** Certain pizza categories and individual products outperform others.
-- **Revenue concentration:** A relatively small group of pizzas contributes a substantial share of revenue, consistent with a Pareto-style pattern.
-- **Operational considerations:** Demand varies by time, making shift allocation and inventory planning important areas to evaluate.
+- **Overall performance:** The business generated approximately **$817.9K in revenue** from **21.4K orders**, with an average order value of **$38.3**.
+- **Pizza size preference:** Large pizzas contributed approximately **45.9%** of revenue, while Medium pizzas contributed **30.5%**. Together, they accounted for over **76% of total revenue**.
+- **Category performance:** The Classic category was the leading revenue contributor at approximately **$220.1K**, followed by Supreme at **$208.2K**.
+- **Seasonal sales patterns:** Sales were relatively strong during parts of Q2 and Q3, while February, September, and October showed comparatively lower monthly revenue.
+- **Ordering patterns:** Friday recorded the highest sales activity, while Sunday was comparatively weaker. Lunch and dinner were the strongest ordering periods.
+- **Product performance:** The Thai Chicken Pizza was the highest revenue-generating pizza, while the Brie Carre Pizza was among the lowest-performing products by revenue.
 
-These findings help identify where management attention may be most valuable.
 
 ## 💡 Business Recommendations
 
-Based on the observed sales patterns, the project proposes the following actions:
+Based on the observed sales patterns, the following actions could be considered:
 
-1. **Focus promotions:** Prioritize products with strong sales performance rather than frequently changing the menu.
-2. **Use time-based offers:** Explore targeted promotions during lower-sales periods to improve demand distribution.
-3. **Optimize inventory:** Give appropriate attention to high-demand pizza categories and sizes.
-4. **Increase average order value:** Evaluate suitable combo offers and product pairings.
-5. **Improve shift allocation:** Maintain staffing stability while considering demand patterns when planning shifts.
+1. **Prioritize high-contribution products:** Review the performance of Large and Medium pizzas and ensure that popular products remain well represented in the menu.
+2. **Plan targeted promotions:** Explore time-limited offers during comparatively weaker months and lower-demand ordering periods to encourage additional orders.
+3. **Align inventory with demand:** Use category, size, and product-level sales trends to support ingredient purchasing and inventory planning.
+4. **Explore average order value opportunities:** Test suitable combo offers, add-ons, and product pairings to encourage higher-value orders.
+5. **Plan staffing around demand:** Consider stronger Friday, lunch, and dinner demand when reviewing staff schedules and shift allocation.
 
-Recommendations should be evaluated alongside profit margins, ingredient availability, staffing constraints, and implementation costs before business decisions are made.
+These are data-informed opportunities for further evaluation. Actual implementation should also consider profit margins, ingredient availability, staffing constraints, and operating costs.
 
 ## 📈 Project Outcomes
 
@@ -150,9 +152,9 @@ Recommendations should be evaluated alongside profit margins, ingredient availab
 
 ## 📁 Repository Contents
 
-- `images/` — Dashboard screenshots and visual previews.
-- `documentation/` — Dataset overview and data dictionary.
-- `presentation/` — Project presentation in PDF format.
+- `screenshots/` — Dashboard screenshots and visual previews.
+- `data/` — Dataset overview and data dictionary.
+- `documentation/` — Project presentation in PDF format.
 - `README.md` — Project overview, methods, features, and business findings.
 
 ## 👤 About This Project
