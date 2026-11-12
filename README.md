@@ -155,6 +155,7 @@ These are data-informed opportunities for further evaluation. Actual implementat
 - `screenshots/` — Dashboard screenshots and visual previews.
 - `data/` — Dataset overview and data dictionary.
 - `documentation/` — Project presentation in PDF format.
+- `pizza-sales-dashboard-export.pdf/` — Static PDF export of the Power BI dashboard.
 - `README.md` — Project overview, methods, features, and business findings.
 
 ## 👤 About This Project
